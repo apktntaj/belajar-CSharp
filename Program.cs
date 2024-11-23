@@ -2,7 +2,7 @@
 {
     static void Main(string[] args)
     {
-        Quiz quiz = new Quiz();
-        quiz.Start();
+        StartProcess.StartProcess startProcess = new();
+        startProcess.Run();
     }
 }
