@@ -1,11 +1,9 @@
 using System;
 using System.Diagnostics;
 
-namespace StartProcess
-{
     class StartProcess
     {
-        public void Run()
+        public static void Run()
         {
             Console.WriteLine("Starting Process!");
             Process process = new();
@@ -17,4 +15,3 @@ namespace StartProcess
             // process.WaitForExit();
         }
     }
-}

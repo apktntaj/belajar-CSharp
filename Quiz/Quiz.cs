@@ -2,14 +2,14 @@ using System;
 
   class Quiz
     {
-        string[] questions =
+        readonly string[] questions =
         {
             "Siapa Tuhanmu?",
             "Apa Agamamu?",
             "Siapa Nabimu?",
         };
 
-        string[] answers =
+        readonly string[] answers =
         {
             "Allah",
             "Islam",
