@@ -1,6 +1,6 @@
-class Acronym
+static class Acronym
 {
-    public Acronym(string sentence)
+    public static void Run(string sentence)
     {
         string[] words = sentence.Split(' ');
         string acronym = "";

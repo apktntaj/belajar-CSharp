@@ -2,7 +2,8 @@
 {
     static void Main(string[] args)
     {
-        Acronym ac = new Acronym(args[1]);
-
+        Console.WriteLine("Start");
+        WebScraper.Run();
+        Console.WriteLine("End");
     }
 }
