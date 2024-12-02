@@ -2,8 +2,12 @@
 {
     static void Main(string[] args)
     {
+        var now = DateTime.Now.Second;
+
         Console.WriteLine("Start");
-        WebScraper.Run();
-        Console.WriteLine("End");
+
+        TaskManager.Run();
+
+        Console.WriteLine($"\nTime taken: {DateTime.Now.Second - now}s");
     }
 }
