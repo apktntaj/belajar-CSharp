@@ -1,13 +1,10 @@
 ﻿class Program
 {
-    static void Main(string[] args)
+    static void Main()
     {
-        var now = DateTime.Now.Second;
+        int x = 5;
+        Foo();
 
-        Console.WriteLine("Start");
-
-        TaskManager.Run();
-
-        Console.WriteLine($"\nTime taken: {DateTime.Now.Second - now}s");
+        static void Foo() => Console.WriteLine(x);
     }
 }
